@@ -55,21 +55,20 @@ a{
     background-image: url(../images/gravel.png);
     background-repeat: repeat;
     border-top: 2px solid grey;
-    background-size: cover;
+    background-size: auto;
+    width: 100vw;
     position: sticky;
-    min-height: 90vh;
+    height: 125vh;
 }
 .container{
     width: 960px;
     height: auto;
-    margin: 130px 0 0 17%;
-    padding-bottom: 25px;
+    margin: 130px auto;
     background-color: white;
     font-size: 18px;
     border: 1px solid grey;
     overflow: auto;
 }
-
 h2{
     color: #4aaaa5;
     padding-top: 30px;
@@ -86,6 +85,7 @@ h2{
     font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
     color: grey;
     margin-right: auto;
+    font-size: 14px;
 }
 #contact-info{
     width: 90%;
@@ -116,6 +116,7 @@ button{
     height: 27px;
     text-align: center;
     font-size: 17px;
+    margin: 10px;
 }
 form{
     padding-top: 5px;
